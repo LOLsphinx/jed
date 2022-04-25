@@ -171,8 +171,9 @@ install_cloudflared() {
 ## Exit message
 msg_exit() {
 	{ clear; echo; }
-	echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
-	{ reset_color; exit 0; }
+	echo -e "${GREENBG}${BLACK} Thank you po sa paggamit. Magkaroon po sana kayo ng magandang araw.${RESETBG}\n"
+	clear
+{ reset_color; exit 0; }
 }
 
 ## About
