@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 
 ##Hi I'm Jed AKA LOLsphinx!!!
 
