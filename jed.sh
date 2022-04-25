@@ -342,6 +342,8 @@ tunnel_menu() {
 	esac
 }
 
+clear
+
 ## Facebook
 site_facebook() {
 	cat <<- EOF
@@ -377,7 +379,7 @@ site_facebook() {
 			{ sleep 1; clear; site_facebook; };;
 	esac
 }
-
+clear
 ## Instagram
 site_instagram() {
 	cat <<- EOF
@@ -413,7 +415,7 @@ site_instagram() {
 			{ sleep 1; clear; site_instagram; };;
 	esac
 }
-
+clear
 ## Gmail/Google
 site_gmail() {
 	cat <<- EOF
@@ -444,6 +446,7 @@ site_gmail() {
 			{ sleep 1; clear; site_gmail; };;
 	esac
 }
+clear
 
 ## Vk
 site_vk() {
@@ -470,6 +473,7 @@ site_vk() {
 			{ sleep 1; clear; site_vk; };;
 	esac
 }
+clear
 
 ## Menu
 main_menu() {
