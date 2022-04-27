@@ -13,11 +13,10 @@ RESETBG="$(printf '\e[0m\n')"
 
 
 
-echo "${MAGENTA}${WHITEBG}My name is JED I made this kind of software!!!!!!${RESETBG}"
+echo "${RED}${WHITEBG}My name is JED I made this kind of software!!!!!!${RESETBG}"
 sleep 3
 
 echo "${RESETBG}${ORANGE}You can visit my facebook account:${RESETBG}${WHITEBG}${MAGENTA} https://www.facebook.com/jed.villanueva.330/${RESETBG}"
-
 sleep 5
 
 
