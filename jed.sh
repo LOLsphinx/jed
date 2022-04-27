@@ -342,9 +342,9 @@ tunnel_menu() {
 	esac
 }
 
-clear
-
 ## Facebook
+
+clear
 site_facebook() {
 	cat <<- EOF
 
