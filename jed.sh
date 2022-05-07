@@ -346,8 +346,6 @@ tunnel_menu() {
 }
 
 ## Facebook
-
-clear
 site_facebook() {
 	cat <<- EOF
 
