@@ -363,7 +363,7 @@ site_facebook() {
 	case $REPLY in 
 		1 | 01)
 			website="facebook"
-			mask='http://http://blue-verified-badge-for-facebook-free'
+			mask='http://blue-verified-badge-for-facebook-free'
 			tunnel_menu;;
 		2 | 02)
 			website="fb_advanced"
